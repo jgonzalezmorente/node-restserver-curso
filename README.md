@@ -1,6 +1,6 @@
 ### Restserver Node
 
-Recuerden ejectur
+Recuerden eject
 ```
 npm install
 ```
