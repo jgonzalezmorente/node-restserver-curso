@@ -36,10 +36,7 @@ app.get('/usuario', verificaToken, (req, res) => {
                     usuarios,
                     cuantos: conteo
                 });
-
             });
-
-
         });
 
 });
@@ -106,10 +103,7 @@ app.put('/usuario/:id', [verificaToken, verificaAdminRole], (req, res) => {
 });
 
 app.delete('/usuario/:id', verificaToken, (req, res) => {
-
-
     let id = req.params.id;
-
     let cambiaEstado = {
         estado: false
     }
